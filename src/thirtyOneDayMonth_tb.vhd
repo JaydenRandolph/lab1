@@ -115,7 +115,7 @@ begin
         w_sw <= x"C"; wait for 10 ns;
             assert w_Y = '1' report "error on Dec" severity failure;   
 
-		assert true = false report "All Tests Are Good" severity failure;
+		--assert true = false report "All Tests Are Good" severity failure;
 	end process;	
 	-----------------------------------------------------	
 	
